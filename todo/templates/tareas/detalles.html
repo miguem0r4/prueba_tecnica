@@ -1,0 +1,15 @@
+{% extends 'tareas/base.html' %}
+
+{% block content %}
+
+<h4>Detalles</h4>
+ 
+<p><span class="txt_negrita">Título:</span> <br> {{object.titulo}}</p>
+<p><span class="txt_negrita">Descripción:</span> <br> {{object.descripcion}}</p>
+<p><span class="txt_negrita">Creado:</span> <br> {{object.fecha_creacion}}</p>
+<p><span class="txt_negrita">Actualizado:</span> <br> {{object.fecha_actualizacion}}</p>
+ 
+<!-- Botón para volver a la vista principal (Home) -->
+<a href="../" type="submit" class="btn btn-primary">Volver</a>
+
+{% endblock%}

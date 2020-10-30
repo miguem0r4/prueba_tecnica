@@ -1,0 +1,31 @@
+
+<head>
+ 
+    {# Cargamos la librería #} 
+    {% load bootstrap4 %} 
+ 
+    {# CSS Bootstrap #} 
+    {% bootstrap_css %} </head>
+ 
+    {# Archivos #}
+    {% load static %} <!-- STATIC_URL -->
+ 
+</head>
+<body>
+    <div class="page-header mx-auto">
+        <h2><a href="/">Prueba técnica Miguel Mora</a></h2>
+    </div>
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+    </div>
+    
+{# JS y jQuery Bootstrap #}
+{% bootstrap_javascript jquery='full' %} 
+
+</body>
+</html>
