@@ -26,7 +26,7 @@ SECRET_KEY = '@oko3c6qjkrveduhr!dumzi)w=d$u1@^3q&v5p_t7w%u)717%0'
 DEBUG = False
 
 #ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['https://boiling-dawn-31245.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['https://peaceful-oasis-10255.herokuapp.com','127.0.0.1']
 
 
 
